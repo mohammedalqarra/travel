@@ -98,9 +98,17 @@
             }
         }
 
-        .activeNavbar{
-            top:7rem;
-            
+        .activeNavbar {
+            top: 7rem;
+
+        }
+
+        .toggleNavbar {
+            display: block; // تأكد من ظهوره
+            position: absolute;
+            right: 1rem;
+            top: 1.5rem;
+            cursor: pointer;
         }
     }
 
